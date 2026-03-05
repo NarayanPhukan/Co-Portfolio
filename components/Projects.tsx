@@ -57,7 +57,7 @@ const Projects = () => {
               key={project.id}
               variants={projectVariants}
               whileHover={{ y: -10 }}
-              className="group rounded-xl overflow-hidden bg-gradient-to-br from-secondary/50 to-primary/50 border border-accent/20 hover:border-accent/50 transition-all duration-300"
+              className="group rounded-xl overflow-hidden bg-gradient-to-br from-secondary/50 to-primary/50 border border-accent/20 hover:border-accent/50 transition-all duration-300 hover:shadow-2xl hover:shadow-accent/30"
             >
               {/* Project Image */}
               <div className="relative h-60 md:h-80 overflow-hidden bg-secondary">

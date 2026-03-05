@@ -104,16 +104,16 @@ const Skills = () => {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
-                <div className="flex justify-between mb-2">
+                <div className="flex justify-between mb-3">
                   <span className="font-semibold text-gray-300">{skill.label}</span>
-                  <span className="text-accent font-bold">{skill.value}</span>
+                  <span className="text-accent font-bold text-lg">{skill.value}</span>
                 </div>
-                <div className="w-full bg-secondary h-2 rounded-full overflow-hidden">
+                <div className="w-full bg-secondary/60 h-3 rounded-full overflow-hidden border border-accent/20">
                   <motion.div
-                    className="h-full bg-gradient-to-r from-accent to-accent-light"
+                    className="h-full bg-gradient-to-r from-accent via-accent-light to-accent shadow-lg shadow-accent/50"
                     initial={{ width: 0 }}
                     whileInView={{ width: skill.value }}
-                    transition={{ duration: 1, delay: 0.2 }}
+                    transition={{ duration: 1.2, delay: 0.2, ease: 'easeOut' }}
                   />
                 </div>
               </motion.div>

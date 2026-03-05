@@ -73,13 +73,13 @@ const Hero = () => {
         <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <a
             href="#contact"
-            className="px-8 py-3 bg-gradient-to-r from-accent to-accent-light rounded-lg font-semibold text-white hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 transform hover:scale-105"
+            className="px-8 py-3 bg-gradient-to-r from-accent to-accent-light rounded-lg font-semibold text-white hover:shadow-xl hover:shadow-accent/60 transition-all duration-300 transform hover:scale-105 hover:translate-y-[-4px]"
           >
             Get in Touch
           </a>
           <a
             href="#projects"
-            className="px-8 py-3 border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 transition-all duration-300"
+            className="px-8 py-3 border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/20 hover:shadow-lg hover:shadow-accent/40 transition-all duration-300 transform hover:scale-105"
           >
             View My Work
           </a>

@@ -39,10 +39,11 @@ const Header = () => {
               <motion.a
                 key={item.name}
                 href={item.href}
-                className="text-gray-300 hover:text-accent transition-colors duration-300"
+                className="text-gray-300 hover:text-accent transition-all duration-300 relative group"
                 whileHover={{ scale: 1.05 }}
               >
                 {item.name}
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-accent to-accent-light group-hover:w-full transition-all duration-300"></span>
               </motion.a>
             ))}
           </div>
@@ -53,7 +54,7 @@ const Header = () => {
               href="https://github.com/NarayanPhukan"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-accent transition-colors"
+              className="text-gray-300 hover:text-accent hover:scale-125 transition-all duration-300"
               title="GitHub"
             >
               <FaGithub size={20} />
@@ -62,7 +63,7 @@ const Header = () => {
               href="https://linkedin.com/in/NarayanPhukan"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-accent transition-colors"
+              className="text-gray-300 hover:text-accent hover:scale-125 transition-all duration-300"
               title="LinkedIn"
             >
               <FaLinkedin size={20} />
@@ -71,7 +72,7 @@ const Header = () => {
               href="https://twitter.com/NarayanPhukan"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-accent transition-colors"
+              className="text-gray-300 hover:text-accent hover:scale-125 transition-all duration-300"
               title="Twitter"
             >
               <FaTwitter size={20} />

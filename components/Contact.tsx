@@ -143,7 +143,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-secondary/50 border border-accent/20 rounded-lg focus:border-accent outline-none transition-colors text-white"
+                  className="w-full px-4 py-3 bg-secondary/50 border border-accent/20 rounded-lg focus:border-accent focus:shadow-lg focus:shadow-accent/30 outline-none transition-all text-white hover:border-accent/40"
                   placeholder="Your name"
                 />
               </div>
@@ -159,7 +159,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-secondary/50 border border-accent/20 rounded-lg focus:border-accent outline-none transition-colors text-white"
+                  className="w-full px-4 py-3 bg-secondary/50 border border-accent/20 rounded-lg focus:border-accent focus:shadow-lg focus:shadow-accent/30 outline-none transition-all text-white hover:border-accent/40"
                   placeholder="your@email.com"
                 />
               </div>
@@ -175,7 +175,7 @@ const Contact = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-secondary/50 border border-accent/20 rounded-lg focus:border-accent outline-none transition-colors text-white"
+                  className="w-full px-4 py-3 bg-secondary/50 border border-accent/20 rounded-lg focus:border-accent focus:shadow-lg focus:shadow-accent/30 outline-none transition-all text-white hover:border-accent/40"
                   placeholder="Project inquiry"
                 />
               </div>
@@ -191,16 +191,16 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 bg-secondary/50 border border-accent/20 rounded-lg focus:border-accent outline-none transition-colors text-white resize-none"
+                  className="w-full px-4 py-3 bg-secondary/50 border border-accent/20 rounded-lg focus:border-accent focus:shadow-lg focus:shadow-accent/30 outline-none transition-all text-white resize-none hover:border-accent/40"
                   placeholder="Your message here..."
                 />
               </div>
 
               <motion.button
                 type="submit"
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.05, y: -4 }}
                 whileTap={{ scale: 0.95 }}
-                className="w-full px-6 py-3 bg-gradient-to-r from-accent to-accent-light rounded-lg font-semibold text-white hover:shadow-lg hover:shadow-accent/50 transition-all duration-300"
+                className="w-full px-6 py-3 bg-gradient-to-r from-accent to-accent-light rounded-lg font-semibold text-white hover:shadow-xl hover:shadow-accent/60 transition-all duration-300"
               >
                 {submitted ? '✓ Message Sent!' : 'Send Message'}
               </motion.button>

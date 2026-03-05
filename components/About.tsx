@@ -63,16 +63,17 @@ const About = () => {
               <motion.div
                 key={index}
                 variants={itemVariants}
-                className="bg-gradient-to-br from-secondary to-primary p-6 rounded-lg border border-accent/20 hover:border-accent/50 transition-all duration-300 hover:shadow-lg hover:shadow-accent/20"
+                whileHover={{ y: -8, boxShadow: '0 20px 40px rgba(59, 130, 246, 0.3)' }}
+                className="bg-gradient-to-br from-secondary/80 to-primary/50 p-6 rounded-lg border border-accent/20 hover:border-accent/50 transition-all duration-300 group cursor-pointer"
               >
                 <motion.p
-                  className="text-4xl font-bold text-accent mb-2"
+                  className="text-4xl font-bold bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300"
                   whileInView={{ scale: [1, 1.1, 1] }}
                   transition={{ duration: 1 }}
                 >
                   {stat.value}
                 </motion.p>
-                <p className="text-gray-400">{stat.label}</p>
+                <p className="text-gray-400 font-semibold">{stat.label}</p>
               </motion.div>
             ))}
           </motion.div>

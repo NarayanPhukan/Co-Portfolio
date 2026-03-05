@@ -50,7 +50,7 @@ const Experience = () => {
               className="relative group p-8 rounded-xl bg-gradient-to-r from-secondary/50 to-primary/50 border border-accent/20 hover:border-accent/50 transition-all duration-300"
             >
               {/* Timeline Badge */}
-              <div className="absolute -left-4 top-8 w-8 h-8 bg-accent rounded-full border-4 border-primary flex items-center justify-center">
+              <div className="absolute -left-4 top-8 w-8 h-8 bg-gradient-to-r from-accent to-accent-light rounded-full border-4 border-primary flex items-center justify-center animate-pulse-glow">
                 <div className="w-3 h-3 bg-primary rounded-full" />
               </div>
 
