@@ -53,7 +53,7 @@ const Hero = () => {
           variants={itemVariants}
           className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
         >
-          Hi, I'm{' '}
+          Hi, I&apos;m{' '}
           <span className="bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">
             {portfolioData.name}
           </span>

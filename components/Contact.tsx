@@ -93,7 +93,7 @@ const Contact = () => {
             Get In <span className="bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">Touch</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Have a question or ready to start a project? I'd love to hear from you.
+            Have a question or ready to start a project? I&apos;d love to hear from you.
           </p>
         </motion.div>
 
@@ -212,7 +212,7 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6">Let's Connect</h3>
               <p className="text-gray-400 mb-8 leading-relaxed">
-                I'm always interested in hearing about new projects and exciting opportunities. Whether you want to discuss a potential 
+                I&apos;m always interested in hearing about new projects and exciting opportunities. Whether you want to discuss a potential 
                 collaboration or just say hello, feel free to get in touch!
               </p>
 

@@ -61,7 +61,7 @@ const Testimonials = () => {
               </div>
 
               {/* Quote */}
-              <p className="text-gray-300 mb-6 italic leading-relaxed">"{testimonial.text}"</p>
+              <p className="text-gray-300 mb-6 italic leading-relaxed">&quot;{testimonial.text}&quot;</p>
 
               {/* Author */}
               <div className="flex items-center gap-4">
@@ -91,14 +91,14 @@ const Testimonials = () => {
         >
           <h3 className="text-2xl font-bold mb-4">Interested in Working Together?</h3>
           <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-            I'm always open to interesting projects and collaboration opportunities. Whether you have a question or want to discuss 
+            I&apos;m always open to interesting projects and collaboration opportunities. Whether you have a question or want to discuss 
             a potential project, feel free to reach out.
           </p>
           <a
             href="#contact"
             className="inline-block px-8 py-3 bg-gradient-to-r from-accent to-accent-light rounded-lg font-semibold text-white hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 transform hover:scale-105"
           >
-            Let's Talk
+            Let&apos;s Talk
           </a>
         </motion.div>
       </div>

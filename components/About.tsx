@@ -45,15 +45,15 @@ const About = () => {
           <motion.div variants={itemVariants}>
             <h3 className="text-3xl font-bold mb-6">Full Stack Developer & Tech Enthusiast</h3>
             <p className="text-gray-400 mb-4 leading-relaxed">
-              I'm a passionate Full Stack Developer with 4+ years of experience in building scalable web applications using the MERN stack. 
+              I&apos;m a passionate Full Stack Developer with 4+ years of experience in building scalable web applications using the MERN stack. 
               My journey in tech started with a curiosity about how things work, which evolved into a professional career building high-impact products.
             </p>
             <p className="text-gray-400 mb-4 leading-relaxed">
               I specialize in creating responsive, user-friendly interfaces with React and Next.js, coupled with robust backend solutions using Node.js and MongoDB. 
-              I'm particularly interested in performance optimization, system design, and mentoring junior developers.
+              I&apos;m particularly interested in performance optimization, system design, and mentoring junior developers.
             </p>
             <p className="text-gray-400 leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge through technical blogs and speaking engagements.
+              When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open-source projects, or sharing knowledge through technical blogs and speaking engagements.
             </p>
           </motion.div>
 
