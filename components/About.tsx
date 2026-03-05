@@ -43,17 +43,18 @@ const About = () => {
         >
           {/* Left Column - About Text */}
           <motion.div variants={itemVariants}>
-            <h3 className="text-3xl font-bold mb-6">Full Stack Developer & Tech Enthusiast</h3>
-            <p className="text-gray-400 mb-4 leading-relaxed">
-              I&apos;m a passionate Full Stack Developer with 4+ years of experience in building scalable web applications using the MERN stack. 
-              My journey in tech started with a curiosity about how things work, which evolved into a professional career building high-impact products.
+            <div className="inline-block px-4 py-1 bg-accent/10 border border-accent/30 rounded-full mb-6">
+              <span className="text-accent text-sm font-semibold">About Me</span>
+            </div>
+            <h3 className="text-4xl md:text-5xl font-black mb-4 leading-tight">Building for the Web</h3>
+            <p className="text-gray-400 mb-4 leading-relaxed text-lg">
+              I&apos;m a full-stack developer who loves solving problems through code. What started as curiosity about web development has turned into a 4+ year journey of building products that users love.
             </p>
-            <p className="text-gray-400 mb-4 leading-relaxed">
-              I specialize in creating responsive, user-friendly interfaces with React and Next.js, coupled with robust backend solutions using Node.js and MongoDB. 
-              I&apos;m particularly interested in performance optimization, system design, and mentoring junior developers.
+            <p className="text-gray-400 mb-4 leading-relaxed text-lg">
+              I specialize in creating fast, responsive interfaces with React and Next.js, backed by robust Node.js backends. But more importantly, I focus on understanding user needs and translating them into elegant solutions.
             </p>
-            <p className="text-gray-400 leading-relaxed">
-              When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open-source projects, or sharing knowledge through technical blogs and speaking engagements.
+            <p className="text-gray-400 leading-relaxed text-lg">
+              When I&apos;m not coding, I&apos;m learning new technologies, contributing to open-source, or writing about web development. I believe in continuous growth and sharing knowledge with the community.
             </p>
           </motion.div>
 

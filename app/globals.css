@@ -238,3 +238,12 @@ a:focus {
 img {
   @apply antialiased;
 }
+
+/* Typography Hierarchy Improvements */
+h1 {
+  @apply tracking-tight;
+}
+
+h2 {
+  @apply tracking-tight;
+}

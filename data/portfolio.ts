@@ -1,8 +1,8 @@
 export const portfolioData = {
   name: 'Narayan Phukan',
   title: 'Full Stack MERN Developer',
-  description:
-    'Experienced Full Stack Developer specializing in building high-performance web applications with React, Node.js, Express, and MongoDB. Passionate about creating seamless user experiences and scalable backend solutions. With 4+ years of experience, I have successfully delivered 50+ projects for startups and enterprise clients.',
+  subtitle: 'I build fast, scalable, and beautifully designed web applications',
+  description: `I'm a full-stack developer who obsesses over clean code and user experience. With 4+ years building production systems for startups and enterprises, I specialize in turning complex ideas into elegant digital solutions using React, Node.js, and modern cloud tech.`,
   email: 'narayanphukan3@gmail.com',
   phone: '+91-8822-3615-49',
   location: 'India',

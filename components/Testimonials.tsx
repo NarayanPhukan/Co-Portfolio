@@ -34,10 +34,13 @@ const Testimonials = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl font-bold mb-4">
-            What People <span className="bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">Say</span>
+          <div className="inline-block px-4 py-1 bg-accent/10 border border-accent/30 rounded-full mb-6">
+            <span className="text-accent text-sm font-semibold">Testimonials</span>
+          </div>
+          <h2 className="text-5xl md:text-6xl font-black mb-6">
+            What People Say
           </h2>
-          <p className="text-gray-400 text-lg">Testimonials from clients and colleagues I&apos;ve worked with</p>
+          <p className="text-gray-400 text-lg">From people I&apos;ve had the privilege to work with</p>
         </motion.div>
 
         <motion.div

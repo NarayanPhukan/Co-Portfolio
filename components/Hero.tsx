@@ -45,27 +45,27 @@ const Hero = () => {
       >
         {/* Greeting */}
         <motion.div variants={itemVariants} className="mb-6">
-          <span className="text-accent text-lg font-semibold">Welcome to my portfolio</span>
+          <span className="text-accent text-sm sm:text-base font-semibold tracking-widest uppercase">Hey, welcome! 👋</span>
         </motion.div>
 
         {/* Main Heading */}
         <motion.h1
           variants={itemVariants}
-          className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
+          className="text-6xl sm:text-7xl lg:text-8xl font-black mb-4 leading-tight tracking-tighter"
         >
-          Hi, I&apos;m{' '}
-          <span className="bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">
+          I&apos;m{' '}
+          <span className="bg-gradient-to-r from-accent via-accent-light to-accent bg-clip-text text-transparent">
             {portfolioData.name}
           </span>
         </motion.h1>
 
-        {/* Title */}
-        <motion.h2 variants={itemVariants} className="text-2xl md:text-4xl text-gray-400 mb-6 font-light">
-          {portfolioData.title}
+        {/* Unique Subtitle */}
+        <motion.h2 variants={itemVariants} className="text-2xl sm:text-3xl lg:text-4xl text-gray-300 mb-6 font-light leading-relaxed max-w-3xl mx-auto">
+          {portfolioData.subtitle}
         </motion.h2>
 
         {/* Description */}
-        <motion.p variants={itemVariants} className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
+        <motion.p variants={itemVariants} className="text-base sm:text-lg text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed">
           {portfolioData.description}
         </motion.p>
 

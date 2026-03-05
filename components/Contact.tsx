@@ -89,11 +89,14 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl font-bold mb-4">
-            Get In <span className="bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">Touch</span>
+          <div className="inline-block px-4 py-1 bg-accent/10 border border-accent/30 rounded-full mb-6">
+            <span className="text-accent text-sm font-semibold">Contact</span>
+          </div>
+          <h2 className="text-5xl md:text-6xl font-black mb-4">
+            Let&apos;s Build Something Great
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Have a question or ready to start a project? I&apos;d love to hear from you.
+            Have an idea? Let&apos;s talk. I&apos;m always interested in new challenges and collaborations.
           </p>
         </motion.div>
 

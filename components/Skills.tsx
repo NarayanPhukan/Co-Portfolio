@@ -35,14 +35,22 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
-        <motion.h2
+        <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-5xl font-bold mb-16 text-center"
+          className="text-center mb-16"
         >
-          Technical <span className="bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">Skills</span>
-        </motion.h2>
+          <div className="inline-block px-4 py-1 bg-accent/10 border border-accent/30 rounded-full mb-6">
+            <span className="text-accent text-sm font-semibold">Expertise</span>
+          </div>
+          <h2 className="text-5xl md:text-6xl font-black mb-6">
+            Skills & Tech Stack
+          </h2>
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+            Technologies I work with daily to build production-ready applications
+          </p>
+        </motion.div>
 
         <motion.div
           variants={containerVariants}
