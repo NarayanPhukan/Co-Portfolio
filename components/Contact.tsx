@@ -210,7 +210,7 @@ const Contact = () => {
           {/* Social Links and Info */}
           <motion.div variants={itemVariants} className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-bold mb-6">Let&apos;s Connect</h3>
               <p className="text-gray-400 mb-8 leading-relaxed">
                 I&apos;m always interested in hearing about new projects and exciting opportunities. Whether you want to discuss a potential 
                 collaboration or just say hello, feel free to get in touch!
